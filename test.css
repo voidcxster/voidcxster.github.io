@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box {
+  background-color:#ff6a00;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+    /* space between the box and other elements */
+  padding: 0px; 
+    /* space between contents and edge of box */
+  position: fixed;
+    /* relative: point of reference
+       absolute: thing using the point of reference
+    */
+  border: 10px double blue;
+  border-radius: 10px;
+    /* makes the border rounded */
+  outline: 10px solid green;
+    /* unlike the border, the outline is not counted as part of the size of the object */
+  outline-offset: 5px;
+    /* space between outline and object */
+  } 
+  
+  h1 {
+    font-family: helvetica, arial;
+    display: flex;
+    /* justify-content: center; */
+  }
